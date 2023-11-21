@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(bachground.jpg);
+    background-attachment: fixed;
+}
+
+.clock {
+    border: 2px groove black;
+    border-radius: 10px;
+    text-align: center;
+    background-color:rgb(157, 200, 204);
+    box-shadow: 1px 6px 9px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h1{
+    font-style: italic;
+}
+
+.clock-face {
+    width: 180px;
+    height:180px;
+    border-radius: 50%;
+    border: 3px solid rgb(114, 240, 198);
+    box-shadow: ;
+    background-color: powderblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 200px;
+    margin: 20px auto;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.button {
+    background-color: #4caf50;
+}
+
+.lab {
+    background-color: blue;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#lapList {
+    list-style-type: none;
+    padding: 5px;
+    right: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+    color: white;
+}
+
+#lapList li {
+    margin-bottom: 5px;
+}

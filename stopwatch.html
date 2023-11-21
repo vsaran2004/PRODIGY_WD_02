@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="sw_styles.css">
+</head>
+
+<body>
+
+<div class="clock">
+    <h1>Stopwatch</h1>
+    <div class="clock-face" id="display">00:00:00</div>
+    <button class="button" onclick="startStopwatch()">Start</button>
+    <button class="button" onclick="stopStopwatch()">Stop</button>
+    <button class="button" onclick="resetStopwatch()">Reset</button>
+    <button class="lab" onclick="recordLap()">Lap</button>
+    <ul id="lapList"></ul>
+</div>
+
+<script src="sw_main.js"></script>
+
+</body>
+</html>
